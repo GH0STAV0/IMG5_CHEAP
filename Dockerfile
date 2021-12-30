@@ -83,7 +83,7 @@ RUN update-rc.d supervisor enable
 #RUN update-rc.d vncserver enable
 #####################################
 RUN $INST_SCRIPTS/package4.sh
-EXPOSE $VNC_PORT $NO_VNC_PORT $SSH_PORT $SUPER_VISOR__PORT
+EXPOSE $VNC_PORT $NO_VNC_PORT  $SUPER_VISOR__PORT
 
 
 
